@@ -1,0 +1,2 @@
+set "PGPASSWORD=%1"
+"C:\Program Files\PostgreSQL\13\bin\pg_restore.exe" --host localhost --port 5433 --username postgres --role postgres --dbname sigap --verbose "C:\Users\Usuario\Desktop\stuff\llevarse\backups\sigapMes.backup"
